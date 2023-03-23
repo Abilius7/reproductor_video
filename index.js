@@ -2,7 +2,7 @@ window.addEventListener("load", (event) => {
     let container = (document.querySelector("#container"));
 
 
-    const url = 'http://localhost/ReproductorDeVideo/getTitels.php'
+    const url = './getTitels.php'
     const http = new XMLHttpRequest()
 
     http.open("GET", url)
